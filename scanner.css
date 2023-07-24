@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecedf1; /* Updated background color */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin: 0;
+}
+
+#scan-info {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#scanner-container {
+    width: 100%;
+    height: calc(100vh - 140px); /* Adjusted to make space for the scan info text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #scanner-container {
+        height: calc(50vh - 140px); /* Adjusted for smaller screens */
+    }
+}
